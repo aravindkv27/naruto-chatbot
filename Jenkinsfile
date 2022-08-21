@@ -11,7 +11,7 @@ pipeline{
             }
 
             steps{
-                pip install python-dotenv
+                echo 'Build Application'
             }
         }
     }
